@@ -1,7 +1,7 @@
 const crypto = require('crypto');
 const mongoose = require('mongoose');
 
-let AccountModel = {};
+var AccountModel = {};
 const iterations = 10000;
 const saltLength = 64;
 const keyLength = 64;
